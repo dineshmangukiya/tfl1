@@ -34,6 +34,9 @@ public class testpage {
         assertEquals(Expected,actualResult);
     }
 
+
+
+    
     @FindBy(xpath = ".//*[@id='plan-a-journey']/div[1]/div[1]/div[1]/strong")
     WebElement seeHeaderTextJourneyFrom;
     public void seeHeaderTextJourneyFrom (String ResultFrom){
